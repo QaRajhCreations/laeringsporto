@@ -1,2 +1,90 @@
-html {
+body {
+    font-family: sans-serif;
+    background-color: #999999;
+    margin: 1em;
+}
+ul {
+ 	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+  	float: left;
+}
+
+li {
+  	float: left;
+}
+
+li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  
+
+.active {
+  	background-color: #4CAF50;
+}
+#mitgrid div {
+    font-size: 5em;
+    color: lightblue;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px 5px;
+}
+#mitgrid {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 4px;
+	grid-template-areas: 
+		"nav-bar nav-bar nav-bar nav-bar"
+		"d c c c"
+		"b b e e"
+		"f g e e"
+		"h h h h";
+}
+#mitgrid div:nth-child(1){
+	grid-area: nav-bar;
+	background-color: white;
+}#nav-felt {
+	position: sticky;
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+
+}
+#felt2 {
+	grid-area: b;
+	background-color: yellow;
+}	
+#felt3 {
+	grid-area: c;
+	background-color: blue;
+}
+#felt4 {
+	grid-area: d;
+	background-color: red;
+}
+#felt5 {
+	grid-area: e;
+	background-color: cyan;
+}
+#felt6 {
+	grid-area: f;
+	background-color: olive;
+}
+#felt7 {
+	grid-area: g;
+	background-color: purple;
+}
+#felt8 {
+	grid-area: h;
+	background-color: lime;
 }
