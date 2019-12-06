@@ -1,9 +1,12 @@
+html {
+	scroll-behavior: smooth; /*Denne funktion gør scroll mere "flydende"*/
+}
 body {
     font-family: sans-serif;
     background-color: #999999;
     margin: 1em;
 }
-ul {
+	ul {
  	list-style-type: none;
   	margin: 0;
   	padding: 0;
@@ -12,11 +15,11 @@ ul {
   	float: left;
 }
 
-li {
+	li {
   	float: left;
 }
 
-li a {
+	li a {
   	display: block;
   	color: white;
   	text-align: center;
@@ -24,67 +27,94 @@ li a {
   	text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  
-
-.active {
+	.active {
   	background-color: #4CAF50;
 }
-#mitgrid div {
-    font-size: 5em;
+	#mitgrid div {
+    font-size: 1em;
     color: lightblue;
     text-align: center;
     border-color: black;
     border-width: 2px;
     border-radius: 5px 5px;
 }
-#mitgrid {
+	#mitgrid {
 	display: grid;
-	grid-template-columns: 1fr 3fr 1fr 2fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 10% auto auto auto 10%;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 4px;
 	grid-template-areas: 
-		"nav-bar nav-bar nav-bar nav-bar"
-		"d c c c"
-		"b b e e"
-		"f g e e"
-		"h h h h";
+		"nav-bar nav-bar nav-bar nav-bar nav-bar"
+		"header header header header header"
+		"c c c c c"
+		"d d d d d"
+		"e e e e e"
+		"f f f f f"
+		"g g g g g"
+		"h h h h h"
+		"h h h h h";
 }
-#mitgrid div:nth-child(1){
+	#mitgrid div:nth-child(1){
 	grid-area: nav-bar;
-	background-color: white;
-}#nav-felt {
-	position: sticky;
-	position: fixed;
-  	top: 0;
-  	width: 100%;
-
 }
-#felt2 {
-	grid-area: b;
-	background-color: yellow;
+	#nav-felt {
+		position: fixed top;
+		border-radius: 5px 5px;
+}
+	#header {
+	grid-area: header;
+	background-color: ;
 }	
-#felt3 {
+	#felt3 {
 	grid-area: c;
-	background-color: blue;
-}
-#felt4 {
-	grid-area: d;
 	background-color: red;
 }
-#felt5 {
+	#felt4 {
+	grid-area: d;
+	background-color: ;
+}
+	#felt5 {
 	grid-area: e;
-	background-color: cyan;
+	background-color: red;
 }
-#felt6 {
+	#felt6 {
 	grid-area: f;
-	background-color: olive;
+	background-color: ;
 }
-#felt7 {
+	#felt7 {
 	grid-area: g;
-	background-color: purple;
+	background-color: red;
 }
-#felt8 {
+	#felt8 {
 	grid-area: h;
-	background-color: lime;
+	background-color: ;
+}
+h1 {
+	font-family: "ParalucentStencil ExtraLight";
+}
+h2 {
+	
+}
+.tiltopknap {
+	border-radius: 50%;
+	background-color: crimson;
+	border: none;
+  	color: white;
+  	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	position: absolute;
+  	left: 44.5%; /*placerer knappen i midten af skærmen*/
+  	bottom: 10%;
+  	box-shadow: 5px 5px 5px black;
+  	opacity: 0.7;
+}
+footer {
+	background-color: #333;
+	text-align: center;
+	font-size: 1.2em;
 }
