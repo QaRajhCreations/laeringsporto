@@ -6,24 +6,41 @@
 	<link rel="stylesheet" type="text/css" href="portostyle.css">
 </head>
 <body>
-	 <div id="mitgrid">
+	 <div id="portogrid">
 	 	
             <div id="nav-felt">
-            	<ul>
-  			<li><a href="#home"><h2>Home</h2></a></li>
-  			<li><a href="#news"><h2>News</h2></a></li>
-  			<li><a href="#contact"><h2>Contact</h2></a></li>
-  			<li><a href="#about"><h2>About</h2></a></li>
-  			<li><a href="#"><h2>Info</h2></a></li>
+            	<ul> <!-- Hvert link i nav-baren leder til en ny side, alle med samme CSS-fil og dermed samme design -->
+  			<li><a href="#home"><h3>Home</h3></a></li>
+  			<li><a href="#news"><h3>News</h3></a></li>
+  			<li><a href="#contact"><h3>Contact</h3></a></li>
+  			<li><a href="#about"><h3>About</h3></a></li>
+  			<li><a href="#1"><h3>Info</h3></a></li>
+  			<li><a href="#2"><h3>Om opgaven</h3></a></li>
+  			<li><a href="#3"><h3>3</h3></a></li>
+  			<li><a href="#4"><h3>4</h3></a></li>
+  			<li><a href="#5"><h3>5</h3></a></li>
+  			<li><a href="#6"><h3>6</h3></a></li>
+  			<li><a href="#7"><h3>7</h3></a></li>
+  			<li><a href="#8"><h3>8</h3></a></li>
+  			<li><a href="#9"><h3>9</h3></a></li>
+  			<li><a href="#10"><h3>10</h3></a></li>
+  			<li><a href="#kilder"><h3>Kilder</h3></a></li>
 				</ul> 
             </div>
             
             <div id="header">
-            	<h1>2</h1>
+            	<h1>På denne side forefindes en oversigt over hvor enkelte dele af denne side befinder sig. </br> <!-- Dette tag anvendes til at lave linjeskift i tekst. -->
+            		På alle sider findes en </h1><h1 id="roed">rød knap</h1> <h1> som fører læseren tilbage til toppen, og dermed tilbage til navigationsbaren på siden. </br>
+            		Dette er gjort bevidst for ikke at anvende "position: sticky;" i CSS'en til navigationsbaren, da formålet er at det skal være nemt at navigere rundt på siden. </br>
+            		Da knappen altid er synlig, og har en forklarende tekst, behøver navigationsbaren ikke at følge med, når der scrolles ned eller op på en side.
+            	</h1>
             </div>
-            
-            <div id="felt3">
-            	<h1>3</h1>
+            <hr>
+            <div id="omr-1">
+            	<h1>På nogle af siderne er der billeder eller illustrationer. </br>
+            		For at disse ikke skal fylde alt for meget, rent visuelt, vises de i et mindre format.</br>
+            		Hvis du klikker på et billede, kommer det frem i større format.
+            	</h1>
             </div>
             
             <div id="felt4">
@@ -48,6 +65,7 @@
         </div>
         <button class="tiltopknap" onclick="topFunction()">Tilbage til toppen</button>
         <footer>&copy Emil Aarup Thomsen | Multimediedesigner, 2019 Skive</footer>
+
         <script type="text/javascript">
         	var mybutton = document.getElementById("tiltopknap");
         	function topFunction() {
@@ -55,6 +73,6 @@
   				document.documentElement.scrollTop = 0;
   		}
 
-        </script> <!-- Ovenstående JavaScript styrer "tilbage til toppen - knappen", men det kan også lade sig gøre i rent CSS, hvilket dog kræver mere kodning -->
+        </script> <!-- Ovenstående JavaScript styrer "tilbage til toppen - knappen", men det kan også lade sig gøre i rent CSS, hvilket dog kræver mere kodning. Brug af JavaScript kræver dog mere processor-energi, så rene CSS-funktioner kan anbefales for at skåne visse computere. Generelt placeres <script> tagget sidst i html-dokumentet, i modsætning til CSS-filen, som linkes før noget indhold er skrevet ind. -->
 </body>
 </html>

@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth; /*Denne funktion gør scroll mere "flydende"*/
+	scroll-behavior: smooth; /*Denne funktion gør scroll ved klik på knapper mere "flydende"*/
 }
 body {
     font-family: sans-serif;
@@ -30,15 +30,15 @@ body {
 	.active {
   	background-color: #4CAF50;
 }
-	#mitgrid div {
+	#portogrid div {
     font-size: 1em;
-    color: lightblue;
+    color: darkblue; /* Den mørkeblå farve er let læselig på den røde eller hvide baggrund */
     text-align: center;
     border-color: black;
     border-width: 2px;
     border-radius: 5px 5px;
 }
-	#mitgrid {
+	#portogrid {
 	display: grid;
 	grid-template-columns: 10% auto auto auto 10%;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -54,7 +54,7 @@ body {
 		"h h h h h"
 		"h h h h h";
 }
-	#mitgrid div:nth-child(1){
+	#portogrid div:nth-child(1){
 	grid-area: nav-bar;
 }
 	#nav-felt {
@@ -63,15 +63,15 @@ body {
 }
 	#header {
 	grid-area: header;
-	background-color: ;
+	background-color: white;
 }	
-	#felt3 {
+	#omr-1 {
 	grid-area: c;
 	background-color: red;
 }
 	#felt4 {
 	grid-area: d;
-	background-color: ;
+	background-color: white;
 }
 	#felt5 {
 	grid-area: e;
@@ -79,7 +79,7 @@ body {
 }
 	#felt6 {
 	grid-area: f;
-	background-color: ;
+	background-color: white;
 }
 	#felt7 {
 	grid-area: g;
@@ -87,13 +87,39 @@ body {
 }
 	#felt8 {
 	grid-area: h;
-	background-color: ;
+	background-color: white;
 }
 h1 {
-	font-family: "ParalucentStencil ExtraLight";
+	font-family: "ParalucentStencil ExtraLight";  /* Jeg har valgt at anvende ParalucentStencil til overskrifter, da den er rimelig let-læselig, men samtidig lidt anderledes end "normale" fonte. */
+	padding-left: 75px; /* Bredde på tekst er vigtig, da en tekst der fylder hele skærmens bredde kan virke afskræmmende for en læser/bruger af et site. */
+	padding-right: 75px;
 }
 h2 {
-	
+	font-family: "ParalucentStencil ExtraLight";
+}
+h3 {
+	font-family: "ParalucentStencil ExtraLight";
+}
+h4 {
+	font-family: "ParalucentStencil ExtraLight";
+}
+h5 {
+	font-family: "ParalucentStencil ExtraLight";
+}
+h6 {
+	font-family: "ParalucentStencil ExtraLight";
+}
+p {
+
+}
+hr {
+	border-color: black;
+	border: 2px;
+	color: black;
+	width: 100%;
+}
+#roed {
+	color: red;
 }
 .tiltopknap {
 	border-radius: 50%;
@@ -107,9 +133,9 @@ h2 {
   	font-size: 16px;
   	margin: 4px 2px;
   	cursor: pointer;
-  	position: absolute;
-  	left: 44.5%; /*placerer knappen i midten af skærmen*/
-  	bottom: 10%;
+  	position: sticky;
+  	left: 44.5%; /*placerer knappen i midten af skærmen på desktop*/
+  	bottom: 5%;
   	box-shadow: 5px 5px 5px black;
   	opacity: 0.7;
 }
