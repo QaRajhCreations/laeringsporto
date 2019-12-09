@@ -13,6 +13,7 @@ body {
   	overflow: hidden;
   	background-color: #333;
   	float: left;
+  	max-width: 100%;
 }
 
 	li {
@@ -23,7 +24,7 @@ body {
   	display: block;
   	color: white;
   	text-align: center;
-  	padding: 14px 16px;
+  	padding: 8px 16px;
   	text-decoration: none;
 }
 
@@ -40,19 +41,19 @@ body {
 }
 	#portogrid {
 	display: grid;
-	grid-template-columns: 10% auto auto auto 10%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 4px;
 	grid-template-areas: 
 		"nav-bar nav-bar nav-bar nav-bar nav-bar"
 		"header header header header header"
-		"c c c c c"
-		"d d d d d"
-		"e e e e e"
-		"f f f f f"
-		"g g g g g"
-		"h h h h h"
-		"h h h h h";
+		"omrA omrA omrA omrA omrA"
+		"omrB omrB omrB omrB omrB"
+		"omrC omrC omrC omrC omrC"
+		"omrD omrD omrD omrD omrD"
+		"omrE omrE omrE omrE omrE"
+		"omrF omrF omrF omrF omrF"
+		"omrF omrF omrF omrF omrF";
 }
 	#portogrid div:nth-child(1){
 	grid-area: nav-bar;
@@ -66,27 +67,27 @@ body {
 	background-color: white;
 }	
 	#omr-1 {
-	grid-area: c;
+	grid-area: omrA; /* Da grid-delene genbruges på alle HTML-sider, har jeg givet dem navne der kan genanvendes, her som forkortelsen omr (for "område"). */
 	background-color: red;
 }
-	#felt4 {
-	grid-area: d;
+	#omr-2 {
+	grid-area: omrB;
 	background-color: white;
 }
-	#felt5 {
-	grid-area: e;
+	#omr-3 {
+	grid-area: omrC;
 	background-color: red;
 }
-	#felt6 {
-	grid-area: f;
+	#omr-4 {
+	grid-area: omrD;
 	background-color: white;
 }
-	#felt7 {
-	grid-area: g;
+	#omr-5 {
+	grid-area: omrE;
 	background-color: red;
 }
-	#felt8 {
-	grid-area: h;
+	#omr-6 {
+	grid-area: omrF;
 	background-color: white;
 }
 h1 {
@@ -110,22 +111,26 @@ h6 {
 	font-family: "ParalucentStencil ExtraLight";
 }
 p {
-
+	font-family: "Agency FB";
+	font-size: 1em;
 }
-hr {
-	border-color: black;
-	border: 2px;
-	color: black;
-	width: 100%;
+hr { /* hr-tagget bruges til at adskille content.*/
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
 }
-#roed {
-	color: red;
+#groen {
+	color: darkgreen;
 }
 .tiltopknap {
-	border-radius: 50%;
-	background-color: crimson;
+	border-radius: 50%; /* Gør knappen rund (eller oval, afhængig af indhold). */
+	background-color: darkgreen; /*Bestemmer knappens farve*/
 	border: none;
-  	color: white;
+  	color: white; /* Bestemmer tekstens farve på knappen, da knappen er i en mørkere farve, er en hvid skrift-farve forholdsvis let at læse. */
   	padding: 20px;
   	text-align: center;
   	text-decoration: none;
@@ -134,10 +139,10 @@ hr {
   	margin: 4px 2px;
   	cursor: pointer;
   	position: sticky;
-  	left: 44.5%; /*placerer knappen i midten af skærmen på desktop*/
+  	left: 44.5%; /* placerer knappen i midten af skærmen på desktop. */
   	bottom: 5%;
   	box-shadow: 5px 5px 5px black;
-  	opacity: 0.7;
+  	opacity: 0.7; /* Gennesigtighed på knappen. Dette gøres for at knappen kan ses, men indhold bagved kan også stadigvæk ses. */
 }
 footer {
 	background-color: #333;
