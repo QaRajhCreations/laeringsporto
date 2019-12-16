@@ -42,7 +42,6 @@ body {
 	#portogrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 4px;
 	grid-template-areas: 
 		"nav-bar nav-bar nav-bar nav-bar nav-bar"
@@ -111,20 +110,13 @@ h6 {
 	font-family: "ParalucentStencil ExtraLight";
 }
 p {
-	font-family: "Agency FB" /* Agency FB er måske ikke en typisk skrift til brødtekster, men */;
-	font-size: 1em;
+	font-family: "Agency FB" /* Agency FB er måske ikke en typisk skrift til brødtekster, men den er stadig en ret let-læselig. */;
+	font-size: 1.4em;
 }
-hr { /* hr-tagget bruges til at adskille content.*/
-	display: block;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: inset;
-	border-width: 1px;
-}
+
 #groen {
 	color: darkgreen;
+	text-shadow: lime 2px 2px;
 }
 .tiltopknap {
 	border-radius: 50%; /* Gør knappen rund (eller oval, afhængig af indhold). */
