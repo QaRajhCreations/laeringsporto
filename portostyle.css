@@ -6,7 +6,7 @@ body {
     background-color: #999999;
     margin: 1em;
 }
-	ul {
+ul {
  	list-style-type: none;
   	margin: 0;
   	padding: 0;
@@ -14,32 +14,34 @@ body {
   	background-color: #333;
   	float: left;
   	max-width: 100%;
+  	border-width: 1px;
+	border-style: solid;
+    border-color: crimson;
 }
 
-	li {
+li {
   	float: left;
 }
 
-	li a {
+li a {
   	display: block;
   	color: white;
   	text-align: center;
   	padding: 8px 16px;
   	text-decoration: none;
 }
-
-	.active {
-  	background-color: #4CAF50;
+li a.hover {
+    background-color: white;
+    color: black;
 }
-	#portogrid div {
+#portogrid div {
     font-size: 1em;
     color: darkblue; /* Den mørkeblå farve er let læselig på den røde eller hvide baggrund */
     text-align: center;
-    border-color: black;
     border-width: 2px;
     border-radius: 5px 5px;
 }
-	#portogrid {
+#portogrid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 4px;
@@ -54,38 +56,38 @@ body {
 		"omrF omrF omrF omrF omrF"
 		"omrF omrF omrF omrF omrF";
 }
-	#portogrid div:nth-child(1){
+#portogrid div:nth-child(1){
 	grid-area: nav-bar;
 }
-	#nav-felt {
+#nav-felt {
 		position: fixed top;
 		border-radius: 5px 5px;
 }
-	#header {
+#header {
 	grid-area: header;
 	background-color: white;
 }	
-	#omr-1 {
+#omr-1 {
 	grid-area: omrA; /* Da grid-delene genbruges på alle HTML-sider, har jeg givet dem navne der kan genanvendes, her som forkortelsen omr (for "område"). */
 	background-color: red;
 }
-	#omr-2 {
+#omr-2 {
 	grid-area: omrB;
 	background-color: white;
 }
-	#omr-3 {
+#omr-3 {
 	grid-area: omrC;
 	background-color: red;
 }
-	#omr-4 {
+#omr-4 {
 	grid-area: omrD;
 	background-color: white;
 }
-	#omr-5 {
+#omr-5 {
 	grid-area: omrE;
 	background-color: red;
 }
-	#omr-6 {
+#omr-6 {
 	grid-area: omrF;
 	background-color: white;
 }
@@ -113,7 +115,9 @@ p {
 	font-family: "Agency FB" /* Agency FB er måske ikke en typisk skrift til brødtekster, men den er stadig en ret let-læselig. */;
 	font-size: 1.4em;
 }
+a {
 
+}
 #groen {
 	color: darkgreen;
 	text-shadow: lime 2px 2px;

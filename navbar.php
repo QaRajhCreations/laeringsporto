@@ -2,29 +2,22 @@
             	<ul> <!-- Hvert link i nav-baren leder til en ny side, alle med samme CSS-fil og dermed samme design -->
         <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/index.php"><h3>Forsiden</h3></a></li>
         <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omhtml.php"><h3>Om HTML</h3></a></li>
-  			<li><a href="#contact"><h3>Om CSS</h3></a></li>
-  			<li><a href="#about"><h3>About</h3></a></li>
-  			<li><a href="#1"><h3>Info</h3></a></li>
-  			<li><a href="#2"><h3>Om opgaven</h3></a></li>
-  			<li><a href="#3"><h3>3</h3></a></li>
-  			<li><a href="#4"><h3>4</h3></a></li>
-  			<li><a href="#5"><h3>5</h3></a></li>
-  			<li><a href="#6"><h3>6</h3></a></li>
-  			<li><a href="#7"><h3>7</h3></a></li>
-  			<li><a href="#8"><h3>8</h3></a></li>
-  			<li><a href="#9"><h3>9</h3></a></li>
-  			<li><a href="#10"><h3>10</h3></a></li>
-  			<li><a href="#11"><h3>11</h3></a></li>
-  			<li><a href="#12"><h3>12</h3></a></li>
-  			<li><a href="#13"><h3>13</h3></a></li>
-  			<li><a href="#14"><h3>14</h3></a></li>
-  			<li><a href="#15"><h3>15</h3></a></li>
-  			<li><a href="#16"><h3>16</h3></a></li>
-  			<li><a href="#17"><h3>17</h3></a></li>
-  			<li><a href="#18"><h3>18</h3></a></li>
-  			<li><a href="#19"><h3>19</h3></a></li>
-  			<li><a href="#20"><h3>20</h3></a></li>
-  			<li><a href="#21"><h3>21</h3></a></li>
-  			<li><a href="#kilder"><h3>Kilder</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omcss.php"><h3>Om CSS</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/serverbegrebet.php"><h3>Serverbegrebet</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/grundkommu.php"><h3>Grundlæggende kommunikation</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/praesentation.php"><h3>Præsentationsteknikker</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeps.php"><h3>Photoshop - basis</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeil.php"><h3>Illustrator - basis</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/fotografering.php"><h3>Grundlæggende fotografering</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/empiri.php"><h3>Kvantatitv & Kvalitativ empiri</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/brugertest.php"><h3>Brugertest</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/design.php"><h3>Design</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/bmc.php"><h3>Business Model Canvas</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/tekster.php"><h3>Tekstproduktion</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/infoarki.php"><h3>Informationsarkitektur</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/licens.php"><h3>Licensering</h3></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/scripting.php"><h3>Serverside scripting (PHP)</h3></a></li>
+  			<li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/kilder.php"><h3>Kilder</h3></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/reflektion.php"><h3>Reflektioner</h3></a></li>
 				</ul> 
             </div>
