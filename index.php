@@ -11,25 +11,25 @@
 	 	
             <div id="nav-felt">
             	<ul> <!-- Hvert link i nav-baren leder til en ny side, alle med samme CSS-fil og dermed samme design -->
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/index.php"><h3>Forsiden</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omhtml.php"><h3>Om HTML</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omcss.php"><h3>Om CSS</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/serverbegrebet.php"><h3>Serverbegrebet</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/grundkommu.php"><h3>Grundlæggende kommunikation</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/praesentation.php"><h3>Præsentationsteknikker</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeps.php"><h3>Photoshop - basis</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeil.php"><h3>Illustrator - basis</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/fotografering.php"><h3>Grundlæggende fotografering</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/empiri.php"><h3>Kvantatitv & Kvalitativ empiri</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/brugertest.php"><h3>Brugertest</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/design.php"><h3>Design</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/bmc.php"><h3>Business Model Canvas</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/tekster.php"><h3>Tekstproduktion</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/infoarki.php"><h3>Informationsarkitektur</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/licens.php"><h3>Licensering</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/scripting.php"><h3>Serverside scripting (PHP)</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/kilder.php"><h3>Kilder</h3></a></li>
-        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/reflektion.php"><h3>Reflektioner</h3></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/index.php"><h4>Forsiden</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omhtml.php"><h4>Om HTML</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/omcss.php"><h4>Om CSS</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/serverbegrebet.php"><h4>Serverbegrebet</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/grundkommu.php"><h4>Grundlæggende kommunikation</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/praesentation.php"><h4>Præsentationsteknikker</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeps.php"><h4>Photoshop - basis</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/adobeil.php"><h4>Illustrator - basis</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/fotografering.php"><h4>Grundlæggende fotografering</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/empiri.php"><h4>Kvantatitv & Kvalitativ empiri</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/brugertest.php"><h4>Brugertest</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/design.php"><h4>Design</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/bmc.php"><h4>Business Model Canvas</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/tekster.php"><h4>Tekstproduktion</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/infoarki.php"><h4>Informationsarkitektur</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/licens.php"><h4>Licensering</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/scripting.php"><h4>Serverside scripting (PHP)</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/kilder.php"><h4>Kilder</h4></a></li>
+        <li><a href="http://emil1681.apache.eadania.dk/laeringsportefolie/reflektion.php"><h4>Reflektioner</h4></a></li>
 				</ul> 
             </div>
             <div id="header">
@@ -47,21 +47,23 @@
             </div>
             <div id="omr-2">
             	<h1>Dette er IKKE den skriftstørrelse der bliver anvendt på de enkelte sider. <br>
-            		I stedet anvendes </h1><p> et standard p-tag, for "paragraph"</p><h1>til større mængder af tekst. <br>
+            		I stedet anvendes </h1><p id="beskriver"> et standard p-tag, for "paragraph"</p><h1>til større mængder af tekst. <br>
             	</h1>
             </div>
             <div id="omr-3">
-            	<h1>5</h1>
+            	<h1 id="overskrift01">Information om denne opgave</h1><br><br><br>
+              <p>Denne opgave er tænkt som et læringsportefolio over hvad der er blevet undervist i, og hvad jeg har lært, i løbet af mit første semester som multimediedesigner. Jeg kommer med en baggrund som webintegrator, og har dermed en grundforståelse indenfor HTML og CSS, mit fokus som multimediedesigner er derfor primært på kommunikationsdelene, hvilket denne opgave også bærer præg af, med et forholdsvist simpelt design, som dog alligevel har tydelige inddelinger imellem forskelligt indhold.<br>
+              </p>
             </div>
             <div id="omr-4">
-            	<h1>6</h1>
+            	<h1></h1>
             </div>
             
             <div id="omr-5">
-            	<h1>7</h1>
+            	<h1></h1>
             </div>
             <div id="omr-6">
-            	<h1>8</h1>
+            	<h1></h1>
             </div>
         </div>
         <button class="tiltopknap" onclick="topFunction()">Tilbage til toppen</button>

@@ -13,10 +13,7 @@ ul {
   	overflow: hidden;
   	background-color: #333;
   	float: left;
-  	max-width: 100%;
-  	border-width: 1px;
-	border-style: solid;
-    border-color: crimson;
+  	
 }
 
 li {
@@ -39,7 +36,9 @@ li a.hover {
     color: darkblue; /* Den mørkeblå farve er let læselig på den røde eller hvide baggrund */
     text-align: center;
     border-width: 2px;
-    border-radius: 5px 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
 }
 #portogrid {
 	display: grid;
@@ -60,15 +59,15 @@ li a.hover {
 	grid-area: nav-bar;
 }
 #nav-felt {
-		position: fixed top;
-		border-radius: 5px 5px;
+	position: fixed top;
+	border-radius: 5px 5px;
 }
 #header {
 	grid-area: header;
 	background-color: white;
 }	
 #omr-1 {
-	grid-area: omrA; /* Da grid-delene genbruges på alle HTML-sider, har jeg givet dem navne der kan genanvendes, her som forkortelsen omr (for "område"). */
+	grid-area: omrA; /* Da grid-delene genbruges på alle HTML/PHP-sider, har jeg givet dem navne der kan genanvendes, her som forkortelsen omr (for "område"). */
 	background-color: red;
 }
 #omr-2 {
@@ -96,6 +95,11 @@ h1 {
 	padding-left: 75px; /* Bredde på tekst er vigtig, da en tekst der fylder hele skærmens bredde kan virke afskræmmende for en læser/bruger af et site. */
 	padding-right: 75px;
 }
+#overskrift01 {
+	display: inline;
+	float: left;
+	text-align: left;
+}
 h2 {
 	font-family: "ParalucentStencil ExtraLight";
 }
@@ -113,17 +117,23 @@ h6 {
 }
 p {
 	font-family: "Agency FB" /* Agency FB er måske ikke en typisk skrift til brødtekster, men den er stadig en ret let-læselig. */;
-	font-size: 1.4em;
+	font-size: 1.4em; /* Jeg har bevist valgt at gøre p-tekst større, da mængden af tekst ikke nødvendiggør en lille skriftstørrelse. Dette skulle også gøre teksten mere læsevenlig på mindre skærme. */
+	text-align: left;
+	padding-left: inherit 1px;
+	padding-right: 76px;
 }
 a {
 
+}
+#beskriver {
+	text-align: center;
 }
 #groen {
 	color: darkgreen;
 	text-shadow: lime 2px 2px;
 }
 .tiltopknap {
-	border-radius: 50%; /* Gør knappen rund (eller oval, afhængig af indhold). */
+	border-radius: 50%; /* Gør knappen rund (eller oval, afhængigt af indhold). */
 	background-color: darkgreen; /*Bestemmer knappens farve*/
 	border: none;
   	color: white; /* Bestemmer tekstens farve på knappen, da knappen er i en mørkere farve, er en hvid skrift-farve forholdsvis let at læse. */
