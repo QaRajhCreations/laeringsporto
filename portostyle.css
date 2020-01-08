@@ -77,6 +77,7 @@ li a.hover {
 #omr-3 {
 	grid-area: omrC;
 	background-color: red;
+	padding-left: 5px;
 }
 #omr-4 {
 	grid-area: omrD;
@@ -95,7 +96,7 @@ h1 {
 	padding-left: 75px; /* Bredde på tekst er vigtig, da en tekst der fylder hele skærmens bredde kan virke afskræmmende for en læser/bruger af et site. */
 	padding-right: 75px;
 }
-#overskrift01 {
+.overskrift01 {
 	display: inline;
 	float: left;
 	text-align: left;
@@ -105,6 +106,10 @@ h2 {
 }
 h3 {
 	font-family: "ParalucentStencil ExtraLight";
+	text-align: left;
+	float: left;
+	display: inline;
+	padding-left: 10px;
 }
 h4 {
 	font-family: "ParalucentStencil ExtraLight";
@@ -116,11 +121,12 @@ h6 {
 	font-family: "ParalucentStencil ExtraLight";
 }
 p {
-	font-family: "Agency FB" /* Agency FB er måske ikke en typisk skrift til brødtekster, men den er stadig en ret let-læselig. */;
+	font-family: "Agency FB"; /* Agency FB er måske ikke en typisk skrift til brødtekster, men den er stadig en ret let-læselig. */
 	font-size: 1.4em; /* Jeg har bevist valgt at gøre p-tekst større, da mængden af tekst ikke nødvendiggør en lille skriftstørrelse. Dette skulle også gøre teksten mere læsevenlig på mindre skærme. */
 	text-align: left;
-	padding-left: inherit 1px;
-	padding-right: 76px;
+	padding-right: 35px;
+	padding-left: 25px;
+	max-width: 90%;
 }
 a {
 

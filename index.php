@@ -51,7 +51,7 @@
             	</h1>
             </div>
             <div id="omr-3">
-            	<h1 id="overskrift01">Information om denne opgave</h1><br><br><br>
+            	<h1 class="overskrift01">Information om denne opgave</h1><br><br><br>
               <p>Denne opgave er tænkt som et læringsportefolio over hvad der er blevet undervist i, og hvad jeg har lært, i løbet af mit første semester som multimediedesigner. Jeg kommer med en baggrund som webintegrator, og har dermed en grundforståelse indenfor HTML og CSS, mit fokus som multimediedesigner er derfor primært på kommunikationsdelene, hvilket denne opgave også bærer præg af, med et forholdsvist simpelt design, som dog alligevel har tydelige inddelinger imellem forskelligt indhold.<br>
               </p>
             </div>

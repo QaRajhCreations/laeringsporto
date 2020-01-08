@@ -13,7 +13,10 @@
 include 'navbar.php'; 
  ?>
             <div id="header">
-            	<h1>
+            	<h1 class="overskrift01">Præsentationsteknikker</h1><br><br><br><br>
+                  <p>
+                  
+                  </p>
             </div>
             <div id="omr-1">
             	<h1>
